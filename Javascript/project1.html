@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function myfunction(){
+      document.getElementById("demo").innerHTML = 'Magic!!';
+      document.getElementById("myimage").src='on.jpeg'
+    }
+
+    function calculator(){
+    alert("The Sum is 11");
+    }
+  </script>
+</head>
+<body>
+
+  <button
+  onclick="document.getElementById('myimage').src='on.jpeg'"> Turn on The light
+
+  </button>
+
+<img id = 'myimage' src="off.jpeg">
+
+
+<button
+  onclick="document.getElementById('myimage').src='off.jpeg'"> Turn off The light
+
+  </button>
+
+  <p id="demo">my name</p>
+
+  <button type="button" onclick="myfunction()"> Try it </button>
+
+
+  <p>The Sum  5 + 6 is</p>
+<button type="button" onclick="calculator()"> Calculate
+
+</button>
+  
+
+
+</body>
+</html>
